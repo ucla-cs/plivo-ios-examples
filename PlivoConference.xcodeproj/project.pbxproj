@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4695C349168C788100124E08 /* Members.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695C348168C788100124E08 /* Members.m */; };
+		469EBCAD168B20C40067DE12 /* ConferenceTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 469EBCAC168B20C40067DE12 /* ConferenceTab.m */; };
+		469EBCAF168B222F0067DE12 /* libPlivoEndpoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 469EBCAE168B222F0067DE12 /* libPlivoEndpoint.a */; };
+		469EBCB5168B2F860067DE12 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469EBCB4168B2F860067DE12 /* AudioToolbox.framework */; };
+		469EBCB7168B2FA70067DE12 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469EBCB6168B2FA70067DE12 /* AVFoundation.framework */; };
+		469EBCB9168B2FB00067DE12 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469EBCB8168B2FB00067DE12 /* CFNetwork.framework */; };
+		469EBCBB168B2FC80067DE12 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 469EBCBA168B2FC80067DE12 /* libz.dylib */; };
+		469EBCBD168B306F0067DE12 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469EBCBC168B306F0067DE12 /* SystemConfiguration.framework */; };
+		46B2D63D169D27CD0047CF25 /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B2D63C169D27CD0047CF25 /* MemberViewController.m */; };
+		46B2D640169D27DD0047CF25 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B2D63F169D27DD0047CF25 /* LoginViewController.m */; };
+		46BF0CB11683524500876476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BF0CB01683524500876476 /* UIKit.framework */; };
+		46BF0CB31683524500876476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BF0CB21683524500876476 /* Foundation.framework */; };
+		46BF0CB51683524500876476 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BF0CB41683524500876476 /* CoreGraphics.framework */; };
+		46BF0CBB1683524500876476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CB91683524500876476 /* InfoPlist.strings */; };
+		46BF0CBD1683524500876476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BF0CBC1683524500876476 /* main.m */; };
+		46BF0CC11683524500876476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BF0CC01683524500876476 /* AppDelegate.m */; };
+		46BF0CC31683524500876476 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CC21683524500876476 /* Default.png */; };
+		46BF0CC51683524500876476 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CC41683524500876476 /* Default@2x.png */; };
+		46BF0CC71683524500876476 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CC61683524500876476 /* Default-568h@2x.png */; };
+		46BF0CCA1683524500876476 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CC81683524500876476 /* MainStoryboard_iPhone.storyboard */; };
+		46BF0CCD1683524500876476 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CCB1683524500876476 /* MainStoryboard_iPad.storyboard */; };
+		46BF0CD01683524500876476 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BF0CCF1683524500876476 /* FirstViewController.m */; };
+		46BF0CD21683524500876476 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CD11683524500876476 /* first.png */; };
+		46BF0CD41683524500876476 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CD31683524500876476 /* first@2x.png */; };
+		46BF0CD91683524500876476 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CD81683524500876476 /* second.png */; };
+		46BF0CDB1683524500876476 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CDA1683524500876476 /* second@2x.png */; };
+		46BF0CE31683524500876476 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BF0CE21683524500876476 /* SenTestingKit.framework */; };
+		46BF0CE41683524500876476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BF0CB01683524500876476 /* UIKit.framework */; };
+		46BF0CE51683524500876476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BF0CB21683524500876476 /* Foundation.framework */; };
+		46BF0CED1683524500876476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46BF0CEB1683524500876476 /* InfoPlist.strings */; };
+		46BF0CF01683524500876476 /* PlivoConferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BF0CEF1683524500876476 /* PlivoConferenceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46BF0CE61683524500876476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46BF0CA31683524500876476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46BF0CAB1683524500876476;
+			remoteInfo = PlivoConference;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4695C347168C788100124E08 /* Members.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Members.h; sourceTree = "<group>"; };
+		4695C348168C788100124E08 /* Members.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Members.m; sourceTree = "<group>"; };
+		469EBCAB168B20C40067DE12 /* ConferenceTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConferenceTab.h; sourceTree = "<group>"; };
+		469EBCAC168B20C40067DE12 /* ConferenceTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConferenceTab.m; sourceTree = "<group>"; };
+		469EBCAE168B222F0067DE12 /* libPlivoEndpoint.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPlivoEndpoint.a; sourceTree = "<group>"; };
+		469EBCB4168B2F860067DE12 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		469EBCB6168B2FA70067DE12 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		469EBCB8168B2FB00067DE12 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		469EBCBA168B2FC80067DE12 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		469EBCBC168B306F0067DE12 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		46B2D63A169D27B80047CF25 /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
+		46B2D63C169D27CD0047CF25 /* MemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
+		46B2D63E169D27D50047CF25 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		46B2D63F169D27DD0047CF25 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		46BF0CAC1683524500876476 /* PlivoConference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlivoConference.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BF0CB01683524500876476 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46BF0CB21683524500876476 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46BF0CB41683524500876476 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		46BF0CB81683524500876476 /* PlivoConference-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlivoConference-Info.plist"; sourceTree = "<group>"; };
+		46BF0CBA1683524500876476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46BF0CBC1683524500876476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46BF0CBE1683524500876476 /* PlivoConference-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlivoConference-Prefix.pch"; sourceTree = "<group>"; };
+		46BF0CBF1683524500876476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46BF0CC01683524500876476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46BF0CC21683524500876476 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		46BF0CC41683524500876476 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		46BF0CC61683524500876476 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		46BF0CC91683524500876476 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		46BF0CCC1683524500876476 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		46BF0CCE1683524500876476 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		46BF0CCF1683524500876476 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		46BF0CD11683524500876476 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		46BF0CD31683524500876476 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		46BF0CD81683524500876476 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		46BF0CDA1683524500876476 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		46BF0CE11683524500876476 /* PlivoConferenceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlivoConferenceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BF0CE21683524500876476 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		46BF0CEA1683524500876476 /* PlivoConferenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlivoConferenceTests-Info.plist"; sourceTree = "<group>"; };
+		46BF0CEC1683524500876476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46BF0CEE1683524500876476 /* PlivoConferenceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlivoConferenceTests.h; sourceTree = "<group>"; };
+		46BF0CEF1683524500876476 /* PlivoConferenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlivoConferenceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46BF0CA91683524500876476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469EBCBD168B306F0067DE12 /* SystemConfiguration.framework in Frameworks */,
+				469EBCBB168B2FC80067DE12 /* libz.dylib in Frameworks */,
+				469EBCB9168B2FB00067DE12 /* CFNetwork.framework in Frameworks */,
+				469EBCB7168B2FA70067DE12 /* AVFoundation.framework in Frameworks */,
+				469EBCB5168B2F860067DE12 /* AudioToolbox.framework in Frameworks */,
+				46BF0CB11683524500876476 /* UIKit.framework in Frameworks */,
+				46BF0CB31683524500876476 /* Foundation.framework in Frameworks */,
+				46BF0CB51683524500876476 /* CoreGraphics.framework in Frameworks */,
+				469EBCAF168B222F0067DE12 /* libPlivoEndpoint.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BF0CDD1683524500876476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BF0CE31683524500876476 /* SenTestingKit.framework in Frameworks */,
+				46BF0CE41683524500876476 /* UIKit.framework in Frameworks */,
+				46BF0CE51683524500876476 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BF0CA11683524500876476 = {
+			isa = PBXGroup;
+			children = (
+				469EBCBC168B306F0067DE12 /* SystemConfiguration.framework */,
+				469EBCBA168B2FC80067DE12 /* libz.dylib */,
+				469EBCB8168B2FB00067DE12 /* CFNetwork.framework */,
+				469EBCB6168B2FA70067DE12 /* AVFoundation.framework */,
+				469EBCB4168B2F860067DE12 /* AudioToolbox.framework */,
+				469EBCAE168B222F0067DE12 /* libPlivoEndpoint.a */,
+				46BF0CB61683524500876476 /* PlivoConference */,
+				46BF0CE81683524500876476 /* PlivoConferenceTests */,
+				46BF0CAF1683524500876476 /* Frameworks */,
+				46BF0CAD1683524500876476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46BF0CAD1683524500876476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46BF0CAC1683524500876476 /* PlivoConference.app */,
+				46BF0CE11683524500876476 /* PlivoConferenceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46BF0CAF1683524500876476 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46BF0CB01683524500876476 /* UIKit.framework */,
+				46BF0CB21683524500876476 /* Foundation.framework */,
+				46BF0CB41683524500876476 /* CoreGraphics.framework */,
+				46BF0CE21683524500876476 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46BF0CB61683524500876476 /* PlivoConference */ = {
+			isa = PBXGroup;
+			children = (
+				46BF0CC81683524500876476 /* MainStoryboard_iPhone.storyboard */,
+				46BF0CCB1683524500876476 /* MainStoryboard_iPad.storyboard */,
+				46BF0CBF1683524500876476 /* AppDelegate.h */,
+				46BF0CC01683524500876476 /* AppDelegate.m */,
+				46B2D63A169D27B80047CF25 /* MemberViewController.h */,
+				46B2D63C169D27CD0047CF25 /* MemberViewController.m */,
+				46B2D63E169D27D50047CF25 /* LoginViewController.h */,
+				46B2D63F169D27DD0047CF25 /* LoginViewController.m */,
+				4695C347168C788100124E08 /* Members.h */,
+				4695C348168C788100124E08 /* Members.m */,
+				469EBCAB168B20C40067DE12 /* ConferenceTab.h */,
+				469EBCAC168B20C40067DE12 /* ConferenceTab.m */,
+				46BF0CCE1683524500876476 /* FirstViewController.h */,
+				46BF0CCF1683524500876476 /* FirstViewController.m */,
+				46BF0CD11683524500876476 /* first.png */,
+				46BF0CD31683524500876476 /* first@2x.png */,
+				46BF0CD81683524500876476 /* second.png */,
+				46BF0CDA1683524500876476 /* second@2x.png */,
+				46BF0CB71683524500876476 /* Supporting Files */,
+			);
+			path = PlivoConference;
+			sourceTree = "<group>";
+		};
+		46BF0CB71683524500876476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46BF0CB81683524500876476 /* PlivoConference-Info.plist */,
+				46BF0CB91683524500876476 /* InfoPlist.strings */,
+				46BF0CBC1683524500876476 /* main.m */,
+				46BF0CBE1683524500876476 /* PlivoConference-Prefix.pch */,
+				46BF0CC21683524500876476 /* Default.png */,
+				46BF0CC41683524500876476 /* Default@2x.png */,
+				46BF0CC61683524500876476 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46BF0CE81683524500876476 /* PlivoConferenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				46BF0CEE1683524500876476 /* PlivoConferenceTests.h */,
+				46BF0CEF1683524500876476 /* PlivoConferenceTests.m */,
+				46BF0CE91683524500876476 /* Supporting Files */,
+			);
+			path = PlivoConferenceTests;
+			sourceTree = "<group>";
+		};
+		46BF0CE91683524500876476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46BF0CEA1683524500876476 /* PlivoConferenceTests-Info.plist */,
+				46BF0CEB1683524500876476 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46BF0CAB1683524500876476 /* PlivoConference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BF0CF31683524500876476 /* Build configuration list for PBXNativeTarget "PlivoConference" */;
+			buildPhases = (
+				46BF0CA81683524500876476 /* Sources */,
+				46BF0CA91683524500876476 /* Frameworks */,
+				46BF0CAA1683524500876476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlivoConference;
+			productName = PlivoConference;
+			productReference = 46BF0CAC1683524500876476 /* PlivoConference.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46BF0CE01683524500876476 /* PlivoConferenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BF0CF61683524500876476 /* Build configuration list for PBXNativeTarget "PlivoConferenceTests" */;
+			buildPhases = (
+				46BF0CDC1683524500876476 /* Sources */,
+				46BF0CDD1683524500876476 /* Frameworks */,
+				46BF0CDE1683524500876476 /* Resources */,
+				46BF0CDF1683524500876476 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46BF0CE71683524500876476 /* PBXTargetDependency */,
+			);
+			name = PlivoConferenceTests;
+			productName = PlivoConferenceTests;
+			productReference = 46BF0CE11683524500876476 /* PlivoConferenceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46BF0CA31683524500876476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = plivo;
+			};
+			buildConfigurationList = 46BF0CA61683524500876476 /* Build configuration list for PBXProject "PlivoConference" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46BF0CA11683524500876476;
+			productRefGroup = 46BF0CAD1683524500876476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BF0CAB1683524500876476 /* PlivoConference */,
+				46BF0CE01683524500876476 /* PlivoConferenceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46BF0CAA1683524500876476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BF0CBB1683524500876476 /* InfoPlist.strings in Resources */,
+				46BF0CC31683524500876476 /* Default.png in Resources */,
+				46BF0CC51683524500876476 /* Default@2x.png in Resources */,
+				46BF0CC71683524500876476 /* Default-568h@2x.png in Resources */,
+				46BF0CCA1683524500876476 /* MainStoryboard_iPhone.storyboard in Resources */,
+				46BF0CCD1683524500876476 /* MainStoryboard_iPad.storyboard in Resources */,
+				46BF0CD21683524500876476 /* first.png in Resources */,
+				46BF0CD41683524500876476 /* first@2x.png in Resources */,
+				46BF0CD91683524500876476 /* second.png in Resources */,
+				46BF0CDB1683524500876476 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BF0CDE1683524500876476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BF0CED1683524500876476 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46BF0CDF1683524500876476 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46BF0CA81683524500876476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BF0CBD1683524500876476 /* main.m in Sources */,
+				46BF0CC11683524500876476 /* AppDelegate.m in Sources */,
+				46BF0CD01683524500876476 /* FirstViewController.m in Sources */,
+				469EBCAD168B20C40067DE12 /* ConferenceTab.m in Sources */,
+				4695C349168C788100124E08 /* Members.m in Sources */,
+				46B2D63D169D27CD0047CF25 /* MemberViewController.m in Sources */,
+				46B2D640169D27DD0047CF25 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46BF0CDC1683524500876476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BF0CF01683524500876476 /* PlivoConferenceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46BF0CE71683524500876476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46BF0CAB1683524500876476 /* PlivoConference */;
+			targetProxy = 46BF0CE61683524500876476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46BF0CB91683524500876476 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BF0CBA1683524500876476 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		46BF0CC81683524500876476 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BF0CC91683524500876476 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		46BF0CCB1683524500876476 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BF0CCC1683524500876476 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		46BF0CEB1683524500876476 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BF0CEC1683524500876476 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46BF0CF11683524500876476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Headers/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46BF0CF21683524500876476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Headers/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46BF0CF41683524500876476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlivoConference/PlivoConference-Prefix.pch";
+				INFOPLIST_FILE = "PlivoConference/PlivoConference-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "Headers/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46BF0CF51683524500876476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlivoConference/PlivoConference-Prefix.pch";
+				INFOPLIST_FILE = "PlivoConference/PlivoConference-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "Headers/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		46BF0CF71683524500876476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlivoConference.app/PlivoConference";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlivoConference/PlivoConference-Prefix.pch";
+				INFOPLIST_FILE = "PlivoConferenceTests/PlivoConferenceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		46BF0CF81683524500876476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlivoConference.app/PlivoConference";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlivoConference/PlivoConference-Prefix.pch";
+				INFOPLIST_FILE = "PlivoConferenceTests/PlivoConferenceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46BF0CA61683524500876476 /* Build configuration list for PBXProject "PlivoConference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BF0CF11683524500876476 /* Debug */,
+				46BF0CF21683524500876476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BF0CF31683524500876476 /* Build configuration list for PBXNativeTarget "PlivoConference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BF0CF41683524500876476 /* Debug */,
+				46BF0CF51683524500876476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BF0CF61683524500876476 /* Build configuration list for PBXNativeTarget "PlivoConferenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BF0CF71683524500876476 /* Debug */,
+				46BF0CF81683524500876476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46BF0CA31683524500876476 /* Project object */;
+}
